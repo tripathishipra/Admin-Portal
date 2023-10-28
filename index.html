@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" >
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <div class="container">
+   <div class="nav-bar" >
+   <div style="align-items: center; display: flex;"> <img src="./images/bird4.png" style="width: 30px; height: 30px;">
+    <h2 class="title" >phoenix</h2></div>
+    <div class="search-bar">
+    <input  class="search" type="search" placeholder="search" style="height: 30px ;  width:250px ; border-radius: 50px ; text-align: center;" >
+    <i class="fa fa-search" style="margin-left: 1rem ;"></i>
+   </div>
+   
+    <div class="icon" >
+     
+        <i class="fa fa-sun-o" aria-hidden="true" style="color: rgb(243, 199, 56); width: 20px; height: 20px;"></i>
+        <i class="fa fa-bell-o" aria-hidden="true"></i>
+    <i class="fa fa-bars" aria-hidden="true" id="menu-toggle"></i>
+    <img src="./images/man2.jpeg" style="width: 20px; height: 20px; margin-left: 5px;">
+    </div>
+   </div>
+   <div class="left-menu" >
+    <div class="menu" >
+    <i class="fa fa-caret-right" aria-hidden="true"> &nbsp; <i class="fa fa-home" aria-hidden="true"> Home</i></i>
+    <P style="padding-bottom: 4px; margin: .5rem 0;">Apps</P>
+    <i class="fa fa-caret-right" aria-hidden="true"> &nbsp; <i class="fa fa-shopping-cart" aria-hidden="true">E commerce</i></i><br>
+    <i class="fa fa-caret-right" aria-hidden="true"> &nbsp; <i class="fa fa-phone" aria-hidden="true"></i>CMS</br>
+    <i class="fa fa-caret-right" aria-hidden="true"> &nbsp; <i class="fa fa-comment-o" aria-hidden="true"></i>Chats<br>
+    <i class="fa fa-caret-right" aria-hidden="true"> &nbsp; <i class="fa fa-envelope-o" aria-hidden="true"></i>E mails<br>
+    <i class="fa fa-caret-right" aria-hidden="true"> &nbsp; <i class="fa fa-calendar-o" aria-hidden="true"></i>Events<br>
+    <p style="margin:1rem 0;">Pages</p>
+    <i class="fa fa-caret-right" aria-hidden="true"> &nbsp; <i class="fa fa-compass" aria-hidden="true"></i>Starter<br>
+    <i class="fa fa-caret-right" aria-hidden="true"> &nbsp; <i class="fa fa-question-circle-o" aria-hidden="true"></i>Faq<br>
+    <i class="fa fa-caret-right" aria-hidden="true"> &nbsp; <i class="fa fa-tag" aria-hidden="true"></i>Pricing<br>
+    <i class="fa fa-caret-right" aria-hidden="true"> &nbsp; <i class="fa fa-bell-o" aria-hidden="true"></i>Notifications<br>
+    <i class="fa fa-caret-right" aria-hidden="true"> &nbsp; <i class="fa fa-users" aria-hidden="true">Members</i><br>
+    <i class="fa fa-caret-right" aria-hidden="true"> &nbsp; <i class="fa fa-clock-o" aria-hidden="true">Timeline</i><br>
+    <i class="fa fa-caret-right" aria-hidden="true"> &nbsp; <i class="fa fa-exclamation-triangle" aria-hidden="true"></i>Errors<br>
+    <i class="fa fa-columns" aria-hidden="true">Layers</i><br>
+    <div class="last-para">Vertical Sidenav<br>
+       Dark Mode 
+     </div>
+   </div>
+   </div>
+   <div class="cart">
+    <h1 style="margin-left: 4rem ; color: rgba(51, 51, 59, 1);" >Latest review</h1>
+    <p  style="margin-left: 4rem; color:rgba(131, 134, 139, 1)">Payment received across all channels</p>
+    <div class="product-field">
+    <input class="search-product" id="search-product" type="search" style="height: 40px ;  width:210px ; border-radius: 10px ; margin-right: 2px ; justify-self: right; text-align: center; border-color: rgba(225, 225, 225, 1); "  placeholder="search" onkeyup="searchFn()">
+
+    <button class="product" type="button" style="width: 150px; height: 40px ; border-radius: 8px ; cursor: pointer;border-color: rgba(225, 225, 225, 1);  " >All products</button>
+    </div>
+    <table id="search-table">
+      <tr style="text-align: center; vertical-align: middle">
+    
+        <th>Product</th>
+        <th>Customer</th>
+        <th>Rating</th>
+        <th>Review</th>
+        <th>Status</th>
+        <th>Time</th>
+      </tr>
+    
+    </table>
+    
+   </div>
+
+    </div>
+</body>
+</html>
